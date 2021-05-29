@@ -14,7 +14,7 @@ int main() {
     scanf("%f", &rate);
     printf("\nEnter the time of Interest : ");
     scanf("%f", &time);
-    si = ammount * rate * time;
+    si = (ammount * rate * time) / 100;
     printf("\nSimple Interest = %.2f", si);
 
     return 0;
