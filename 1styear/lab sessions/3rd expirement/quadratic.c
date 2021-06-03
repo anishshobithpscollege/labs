@@ -25,7 +25,7 @@ int main()
     if (disc == 0)
     {
         r1 = r2 = -b / (2 * a);
-        printf("Roots are equal!\nRoot1 = Root2 = %.2f", r1);
+        printf("Roots are equal!\nRoot1 = Root2 = %.2f\n", r1);
 
     } else if (disc > 0) 
     {
