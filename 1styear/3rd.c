@@ -6,11 +6,11 @@
 
 int main()
 {
-    int a, b, sum;
+    int a, b;
 
     printf("Enter two numbers:\n");
-    scanf("%d", "%d", &a, &b);
-    sum=a+b;
-    printf("Result=%d", sum);
+    scanf("%d %d", &a, &b);
+
+    printf("Result=%d", a+b);
     return 0;
 }
