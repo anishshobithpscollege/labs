@@ -3,7 +3,7 @@
  * Formula used:
  *      - b ± √(b² - 4ac)
  * x = ___________________
- *            2a.
+ *            2a
  * Logic :
  * 1) If discriminate = 0 , print the roots are equal and their value.
  * 2) If discriminate > 0 , print the roots are real roots and their value.
@@ -17,7 +17,7 @@ int main()
 {
     float a, b, c, disc, r1, r2, realPart, imagPart;
 
- printf("Enter coefficients a, b and c: ");
+    printf("Enter coefficients a, b and c: ");
     scanf("%f %f %f", &a, &b, &c);
 
     disc = pow(b, 2) - (4 * a * c);
