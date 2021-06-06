@@ -20,6 +20,12 @@ int main()
     printf("Enter coefficients a, b and c: ");
     scanf("%f %f %f", &a, &b, &c);
 
+    if (a == 0 || b == 0 || c == 0)
+    {
+        printf("Invalid input enter a non zero value!");
+        return 0;
+    }
+
     disc = pow(b, 2) - (4 * a * c);
 
     if (disc == 0)
