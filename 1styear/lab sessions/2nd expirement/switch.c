@@ -41,6 +41,11 @@ int main()
         break;
     
     case 5:
+        if (b == 0)
+        {
+            printf("\nModulus is not possible");
+            return 0;
+        }
         result = (int)(a) % (int)(b);
         break;
 
