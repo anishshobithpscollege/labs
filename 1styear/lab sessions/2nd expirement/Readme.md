@@ -52,7 +52,9 @@ Step 6: [Terminate]
         Stop
 </code></pre>
 
+## Flowchart
 
+![Flow chart](./flowchart.svg)
 ## Code
 
 [Click here](./switch.c) for the code.
