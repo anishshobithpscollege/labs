@@ -20,8 +20,7 @@ on integer input.
         Start
 Step 2: [Input two operand values]
         Read op1, op2
-Step 3: [Select the operation to be performed (addition, subtraction, multiplication, division.
-remainder)]
+Step 3: [Select the operation to be performed (addition, subtraction, multiplication, division, remainder)]
         Read choice of operator
 Step 4: [Perform computation based on choice of operator]
         switch (choice)
