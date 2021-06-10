@@ -13,7 +13,8 @@ int main()
     printf("Enter value for a and b : ");
     scanf("%f %f", &a, &b);
 
-    printf("\nChoose Arithmetic operation\n1: Addition\n2: Subtraction\n3: Multiplication\n4: Division\n5: Modulus\n");
+    printf("MENU (Enter the number)\n\t1: Addition\n\t2: Subtraction\n\t3: Multiplication\n\t4: Division\n\t5: Modulus\n");
+    printf("\nChoose Arithemetic Operation : ");
     scanf("%d", &option);
 
     switch (option)
@@ -46,7 +47,7 @@ int main()
             printf("\nModulus is not possible");
             return 0;
         }
-        result = (int)(a) % (int)(b);
+        result = (int)a % (int)b;
         break;
 
     default:
