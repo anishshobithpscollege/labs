@@ -92,5 +92,5 @@ Step 6: [Terminate]
 
 ### Invalid Modulus (Modulus by 0)
 
-![Invalid Modulus](./outputs/invalidModulus.png)
+![Invalid Modulus](./outputs/invalidmodulus.png)
 
