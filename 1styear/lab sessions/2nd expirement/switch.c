@@ -6,14 +6,17 @@
 #include <stdio.h>
 
 int main()
-{
+{   
+    // Declare variables
     int option;
-    float a, b, result;
+    float op1, op2, result;
 
+    // Enter values for operand 1 and operand 2
     printf("Enter value for a and b : ");
-    scanf("%f %f", &a, &b);
+    scanf("%f %f", &op1, &op2);
 
     printf("MENU (Enter the number)\n\t1: Addition\n\t2: Subtraction\n\t3: Multiplication\n\t4: Division\n\t5: Modulus\n");
+    // Enter value for Arithemetic Operation
     printf("\nChoose Arithemetic Operation : ");
     scanf("%d", &option);
 
@@ -21,41 +24,52 @@ int main()
     {
 
     case 1:
-        result = a + b;
+        // Addition
+        result = op1 + op2;
         break;
     
     case 2:
-        result = a - b;
+        // Subraction
+        result = op1 - op2;
         break;
     
     case 3:
-        result = a * b;
+        // Multiplication
+        result = op1 * op2;
         break;
 
     case 4:
-        if (b == 0)
+        // Divison by 0 is not possible, hence throw a error message and terminate the program.
+        if (op2 == 0)
         {
             printf("\nDivison is not possible");
             return 0;
         }
-        result = a / b;
+        // Divison
+        result = op1 / op2;
         break;
     
     case 5:
-        if (b == 0)
+        // Modulus of 0, is not possible, hence throw a error message and terminate the program.
+        if (op2 == 0)
         {
             printf("\nModulus is not possible");
             return 0;
         }
-        result = (int)a % (int)b;
+        /**
+         * Modulus
+         * We have to cast the type of integer because % doesn't work on floating values
+         */
+        result = (int)op1 % (int)op2;
         break;
 
     default:
+        // If the option is invalid, throw a error message and terminate the program.
         printf("\nInvalid option");
         return 0;
         break;
     }
-
+    // Print the result and gonna round of to two decimals.
     printf("Result = %.2f", result);
     return 0;
 
