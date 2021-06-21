@@ -1,19 +1,19 @@
 # Expirement - 5
 
 ## Aim
-An electricity board charges the following rates for the use of electricity: for the first
+An electricity boar dcost the following rates for the use of electricity: for the first
 `200` units `80` paise per unit, for the next `100` hundred units `90` paise per unit; beyond 300
 units, rupee `1` per unit. All users are charged a minimum of Rs. `100` as meter charge. If the
 total amount is more than Rs `400`, then an additional surcharge of `15%` of total amount is
 charged. Write a program to read the name of the user, number of units consumed and
-print out the charges.
+print out the cost.
 
 ## Topic Learning Objective:
 To apply cascading if-else for decision making.
 
 ## Description
 An electricity bill generator generates the electricity bills based on the number of units of
-electricity consumed by the consumer taking into consideration the minimum charges,
+electricity consumed by the consumer taking into consideration the minimum cost,
 additional surcharges for a total amount of more than Rs `400`, varying cost per unit for the first
 `200` units, the next `100` units, and units beyond `300`.
 
@@ -24,7 +24,7 @@ Charges = `100` paise (the minimum charge) + `200 * 0.8` (`80` paise per unit fo
 + `100 * 0.9` (`90` paise per unit for the next `100` units) + `125 * 1` rupee (Rs `1` per unit beyond `300`
 units) = Rs `475/-`
 If the total amount is more than Rs `400`, then an additional surcharge of 15% of total amount is
-charged. Hence Charges = `475` (Total amount) + `71.25` (`15%` of `475`) = Rs `546.25/-`
+charged. Hence cost = `475` (Total amount) + `71.25` (`15%` of `475`) = Rs `546.25/-`
 
 ## Algorithm
 ```
@@ -36,27 +36,26 @@ Step 3: [Read the number of units of electricity consumed]
         Read units
 Step 4: [Generate the bill]
         if (units == 0)
-            charges <- 100
+           cost <- 100
         else if (units <= 200)
-            charges <- 100 + (units*0.8)
+           cost <- 100 + (units*0.8)
         else if (units <= 300)
-            charges <- 100 + (200*0.8) + ( (units-200) * 0.9)
+           cost <- 100 + (200*0.8) + ( (units-200) * 0.9)
         else
-            charges <- 100 + ( (200*0.8) + (100*0.9) + ( (units-300) * 1))
+           cost <- 100 + ( (200*0.8) + (100*0.9) + ( (units-300) * 1))
     
         if (charges > 400)
-            charges += charges *0.15;
+           cost +=cost *0.15;
 
 Step 5: [Print electricity bill]
-        Print name of user, charges
+        Print name of user,cost
 
 Step 6: [Terminate]
         Stop
 ```
 
 ## Flowchart
-
-
+![Flowchart](./flowchart.svg)
 ## Outputs
 
 1st Output
