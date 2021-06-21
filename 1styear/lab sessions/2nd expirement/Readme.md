@@ -54,44 +54,123 @@ Step 6: [Terminate]
 
 ## Flowchart
 
-![Flow chart](./flowchart.svg)
+[Click Here](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/flowchart.svg) to view the flowchart.
 ## Code
 
-[Click here](./switch.c) for the code.
+```c
+/**
+ * Program to solve simple computation problems using arithmetic expression
+ * and use of each operator leading to simulation of a commerical calculator. 
+ */
+
+#include <stdio.h>
+
+int main()
+{   
+    // Declare variables
+    int option;
+    float op1, op2, result;
+
+    // Enter values for operand 1 and operand 2
+    printf("Enter value for a and b : ");
+    scanf("%f %f", &op1, &op2);
+
+    printf("MENU (Enter the number)\n\t1: Addition\n\t2: Subtraction\n\t3: Multiplication\n\t4: Division\n\t5: Modulus\n");
+    // Enter value for Arithemetic Operation
+    printf("\nChoose Arithemetic Operation : ");
+    scanf("%d", &option);
+
+    switch (option)
+    {
+
+    case 1:
+        // Addition
+        result = op1 + op2;
+        break;
+    
+    case 2:
+        // Subraction
+        result = op1 - op2;
+        break;
+    
+    case 3:
+        // Multiplication
+        result = op1 * op2;
+        break;
+
+    case 4:
+        // Divison by 0 is not possible, hence throw a error message and terminate the program.
+        if (op2 == 0)
+        {
+            printf("\nDivison is not possible");
+            return 0;
+        }
+        // Divison
+        result = op1 / op2;
+        break;
+    
+    case 5:
+        // Modulus of 0, is not possible, hence throw a error message and terminate the program.
+        if (op2 == 0)
+        {
+            printf("\nModulus is not possible");
+            return 0;
+        }
+        /**
+         * Modulus
+         * We have to cast the type of integer because % doesn't work on floating values
+         */
+        result = (int)op1 % (int)op2;
+        break;
+
+    default:
+        // If the option is invalid, throw a error message and terminate the program.
+        printf("\nInvalid option");
+        return 0;
+        break;
+    }
+    // Print the result and gonna round of to two decimals.
+    printf("Result = %.2f", result);
+    return 0;
+
+}
+```
+
+[Click here](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/switch.c) for the code.
 
 ## Outputs
 
 ### Addition
 
-![Addition](./outputs/addition.png)
+![Addition](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/addition.png?raw=true)
 
 ### Subtraction
 
-![Subtraction](./outputs/subtraction.png)
+![Subtraction](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/subtraction.png?raw=true)
 
 ### Multiplication
 
-![Mulitplication](./outputs/subtraction.png)
+![Mulitplication](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/multiplication.png?raw=true)
 
 ### Division
 
-![Division](./outputs/division.png)
+![Division](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/division.png?raw=true)
 
 ### Modulus
 
-![Modulus](./outputs/modulus.png)
+![Modulus](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/modulus.png?raw=true)
 
 ## Invalid Inputs
 
 ### Invalid Option
 
-![Invalid Option](./outputs/invalidinput.png)
+![Invalid Option](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/invalidinput.png?raw=true)
 
 ### Invalid Division (Division by 0)
 
-![Invalid Division](./outputs/invaliddivision.png)
+![Invalid Division](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/invaliddivision.png?raw=true)
 
 ### Invalid Modulus (Modulus by 0)
 
-![Invalid Modulus](./outputs/invalidmodulus.png)
+![Invalid Modulus](https://github.com/Anish-Shobith/college/blob/main/1styear/lab%20sessions/2nd%20expirement/outputs/invalidmodulus.png?raw=true)
 
