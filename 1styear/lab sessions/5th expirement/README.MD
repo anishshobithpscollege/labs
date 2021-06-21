@@ -38,13 +38,13 @@ Step 4: [Generate the bill]
         if (units == 0)
            cost <- 100
         else if (units <= 200)
-           cost <- 100 + (units*0.8)
+           cost <- 100 + (units * 0.8)
         else if (units <= 300)
-           cost <- 100 + (200*0.8) + ( (units-200) * 0.9)
+           cost <- 100 + (200 * 0.8) + ((units - 200) * 0.9)
         else
-           cost <- 100 + ( (200*0.8) + (100*0.9) + ( (units-300) * 1))
+           cost <- 100 + ((200 * 0.8) + (100 * 0.9) + ((units - 300) * 1))
     
-        if (charges > 400)
+        if (cost > 400)
            cost +=cost *0.15;
 
 Step 5: [Print electricity bill]

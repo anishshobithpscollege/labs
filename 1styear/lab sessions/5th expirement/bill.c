@@ -1,6 +1,6 @@
 /**
  * A c program to calculate electricity bill.
- * @name Anish Shobith
+ * @name Anish Shobith P S.
  * @USN 4SO20CS012
  */
 
@@ -48,7 +48,7 @@ int main()
         cost = 100 + (200 * 0.8) + ((units - 200) * 0.9);
     } 
     /*
-     * else units is greater than strictly greater than 300 i.e from 301 ,
+     * else units is strictly greater than 300 i.e from 301 ,
      * Then, 100 + ((200 * 0.8) + (100 * 0.9) + ((units - 300) * 1))
      */
     else
@@ -60,18 +60,18 @@ int main()
     * If the cost of bill is above 400/-,
     * then, cost = cost + (cost * 0.15)
     * or, cost += cost * 0.15
-    * Here cost refers to the cost calclated above 
+    * Here cost refers to the cost calclated above.
     */ 
     if (cost > 400)
     {
         cost += cost * 0.15;
     }
 
-    // Print the name and the cost of eletricity bill
+    // Print the name and the cost of eletricity bill.
     printf("\n\tName: %s\n\tCost: %.2f/-\n", name, cost);
     
 
-    // We return 0, to show that program as executed successfully.
+    // We return 0, to show that program has executed successfully.
     return 0;
 }
-// End o main function
+// End of main function
