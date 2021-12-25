@@ -10,7 +10,7 @@
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
  *
  * Question :
- * Design, Develop and Implement a menu driven Program in C for the following Array  * operations.
+ * Design, Develop and Implement a menu driven Program in C for the following Array operations.
  *  a. Creating an Arrat of N Integer Elements.
  *  b. Display of Array Elements with Suitable Headings.
  *  c. Inserting an Element at given valid Position.
