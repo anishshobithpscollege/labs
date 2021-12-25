@@ -1,19 +1,19 @@
 /**
  * Experiment - 2
- * 
+ *
  * Date:  19-11-2021
- * 
+ *
  * @AUTHOR     - Anish Shobith P S
  * @USN        - 4SO20CS012
- * @SUBJECT    - Data Structures Laboratory
+ * @SUBJECT    - Data STRuctures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
- * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru 
- * 
+ * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
+ *
  * Question :
- * Design, Develop and Implement a Program in C for the following operations on Strings
- * a. Read a main String (STR), a Pattern String (PAT) and a Replace String (REP)
- * b. Perform Pattern Matching Operation: Find and Replace all occurrences of PAT in STR with
- *    REP if PAT exists in STR. Report suitable messages in case PAT does not exist in STR
+ * Design, Develop and Implement a Program in C for the following operations on STRings
+ * a. Read a main STRing (STR), a PATtern STRing (PAT) and a REPlace STRing (REP)
+ * b. Perform PATtern Matching Operation: Find and REPlace all occurrences of PAT in STR with
+ *    REP if PAT exists in STR. REPort suitable messages in case PAT does not exist in STR
  * Support the program with functions for each of the above operations. Don't use Built-in
  * functions.
  */
@@ -25,11 +25,60 @@ char STR[100], PAT[50], REP[50], RES[100];
 
 int pattern_match_replace()
 {
-  int i = 0;
-  int c = 0, m = 0;
-  int k = 0;
-  int flag = 0;
-  int j = 0;
+    int i = 0; // index for PAT
+    int c = 0, m = 0; // index for STR
+    int k = 0; // index for REP
+    int flag = 0;
+    int j = 0; // index for RES
 
-   
+    while (STR[c] != '\0')
+    {
+        while(STR[c] !='\0')
+        {
+            if(STR[m] == PAT[i])
+            {
+                i++;
+                m++;
+                if(PAT[i] == '\0')
+                {
+                    flag = 1;
+                    for(k=0; REP[k]!='\0'; k++, j++)
+                    {
+                        RES[j] = REP[k];
+                    }
+                    i = 0;
+                    c = m;
+                }
+            }
+            else
+            {
+                RES[j]= STR[c];
+                j++;
+                c++;
+                m=c;
+                i=0;
+            }
+        }
+        RES[j]='\0';
+        return flag;
+
+    }
+}
+
+void main()
+{
+    char temp;
+    printf("Enter the main string : ");
+    scanf("%[^\n]", &STR);
+    printf("Enter a pattern string : ");
+    scanf("%c",&temp);
+    scanf("%[^\n]", &PAT);
+    printf("Enter a string to be replaced : ");
+    scanf("%c",&temp);
+    scanf("%[^\n]", &REP);
+
+    if (pattern_match_replace())
+        printf("The resultant string is : %s\n", RES);
+    else
+        printf("Pattern not found in the string.\n");
 }
