@@ -61,7 +61,6 @@ int pattern_match_replace()
         }
         RES[j]='\0';
         return flag;
-
     }
 }
 
