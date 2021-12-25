@@ -5,15 +5,15 @@
  *
  * @AUTHOR     - Anish Shobith P S
  * @USN        - 4SO20CS012
- * @SUBJECT    - Data STRuctures Laboratory
+ * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
  *
  * Question :
- * Design, Develop and Implement a Program in C for the following operations on STRings
- * a. Read a main STRing (STR), a PATtern STRing (PAT) and a REPlace STRing (REP)
- * b. Perform PATtern Matching Operation: Find and REPlace all occurrences of PAT in STR with
- *    REP if PAT exists in STR. REPort suitable messages in case PAT does not exist in STR
+ * Design, Develop and Implement a Program in C for the following operations on strings
+ * a. Read a main string (STR), a PATtern string (PAT) and a replace string (REP)
+ * b. Perform pattern Matching Operation: Find and replace all occurrences of PAT in STR with
+ *    REP if PAT exists in STR. Report suitable messages in case PAT does not exist in STR
  * Support the program with functions for each of the above operations. Don't use Built-in
  * functions.
  */
