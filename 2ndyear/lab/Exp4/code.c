@@ -82,8 +82,7 @@ void evaluate() {
 }
 
 void push(char item) {
-    top = top + 1;
-    stack[top] = item;
+    stack[++top] = item;
 }
 
 char pop() {
