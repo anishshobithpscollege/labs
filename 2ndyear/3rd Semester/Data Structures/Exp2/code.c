@@ -1,9 +1,6 @@
 /**
  * Experiment - 2
  *
- * Date:  19-11-2021
- *
- * @AUTHOR     - Anish Shobith P S
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
