@@ -1,11 +1,9 @@
 /**
  * Experiment - 6
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
  * Design, Develop and Implement a menu driven Program in C for the following operations
  * on Circular QUEUE of Characters (Array Implementation of Queue with maximum size MAX)

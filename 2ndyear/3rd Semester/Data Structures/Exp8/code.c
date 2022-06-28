@@ -1,11 +1,9 @@
 /**
  * Experiment - 8
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
  * Design, Develop and Implement a menu driven Program in C for the following
  * operations on Doubly Linked List (DLL) of Employee Data with the fields: SSN, Name, Dept,

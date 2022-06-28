@@ -1,3 +1,18 @@
+/**
+ * Experiment - 1a
+ * @USN        - 4SO20CS012
+ * @SUBJECT    - Design and Analysis of Algorithms Laboratory
+ * @DEPARTMENT - Computer Science and Engineering
+ * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
+ * Question :
+ * Create a java class called Student with the following details as variables within it.
+ * (a) USN
+ * (b) Name
+ * (c) Branch
+ * (d) Phone
+ * Write a Java Program to create n Student objects and print USN, Name, Branch, Phone of these
+ * objects with suitable headings.
+ */
 package org.example;
 
 import java.util.Scanner;

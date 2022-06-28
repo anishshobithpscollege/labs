@@ -1,14 +1,12 @@
 /**
  * Experiment - 5a
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
- * Design, Develop and Implement a Program in C for the follwing Stack Applications
- *  a. Evalution of Suffix experssion with single digit operands and operators: +,-,*,/,%,^
+ * Design, Develop and Implement a Program in C for the following Stack Applications
+ *  a. Evaluation of Suffix expression with single digit operands and operators: +,-,*,/,%,^
  */
 
 #include <stdio.h>

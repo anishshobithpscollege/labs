@@ -1,14 +1,12 @@
 /**
  * Experiment - 2
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
  * Design, Develop and Implement a Program in C for the following operations on strings
- * a. Read a main string (STR), a PATtern string (PAT) and a replace string (REP)
+ * a. Read a main string (STR), a pattern string (PAT) and a replace string (REP)
  * b. Perform pattern Matching Operation: Find and replace all occurrences of PAT in STR with
  *    REP if PAT exists in STR. Report suitable messages in case PAT does not exist in STR
  * Support the program with functions for each of the above operations. Don't use Built-in

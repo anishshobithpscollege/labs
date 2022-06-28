@@ -1,13 +1,11 @@
 /**
  * Experiment - 9
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
- * Design, Develop and Implement a Program in C for the following operationson Singly
+ * Design, Develop and Implement a Program in C for the following operation Singly
  * Circular Linked List (SCLL) with header nodes
  * a. Represent and Evaluate a Polynomial P(x,y,z) = 6x 2 y 2 z-4yz 5 +3x 3 yz+2xy 5 z-2xyz 3
  * b. Find the sum of two polynomials POLY1(x,y,z) and POLY2(x,y,z) and store the

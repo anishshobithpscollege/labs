@@ -1,14 +1,12 @@
 /**
  * Experiment - 5b
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
- * Design, Develop and Implement a Program in C for the follwing Stack Applications
- *  b. Solving Tower of Hanoie problem with n disks.
+ * Design, Develop and Implement a Program in C for the following Stack Applications
+ *  b. Solving Tower of Hanoi problem with n disks.
  */
 
 #include <stdio.h>

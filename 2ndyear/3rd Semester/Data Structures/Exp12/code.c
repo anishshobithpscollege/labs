@@ -1,11 +1,9 @@
 /**
  * Experiment - 12
- *
  * @USN        - 4SO20CS012
  * @SUBJECT    - Data Structures Laboratory
  * @DEPARTMENT - Computer Science and Engineering
  * @COLLEGE    - ST JOSEPH ENGINEERING COLLEGE Vamanjoor, Mangaluru
- *
  * Question :
  * Given a File of N employee records with a set K of Keys(4-digit) which uniquely
  * determine the records in file F. Assume that file F is maintained in memory by a Hash
