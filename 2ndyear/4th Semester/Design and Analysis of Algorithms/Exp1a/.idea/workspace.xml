@@ -4,23 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ca5c3d-cc9f-44cb-98ed-2ba1f6d2c959" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a/src/main/java/org/example/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4ca5c3d-cc9f-44cb-98ed-2ba1f6d2c959" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2BD3vfMPvmBHNckP48liLWI1Wv4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,8 +35,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "E:/college/2ndyear/4th Semester/Design and Analysis of Algorithms/Exp1a",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656427060077</updated>
       <workItem from="1656427061571" duration="2024000" />
+      <workItem from="1657436348498" duration="554000" />
     </task>
     <servers />
   </component>
@@ -86,5 +93,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

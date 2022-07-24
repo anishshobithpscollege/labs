@@ -40,3 +40,17 @@ build/
 ### Mac OS ###
 .DS_Store
 
+### Keil u Vision 4 ###
+*.d
+*.lst
+*.o
+*.dep
+*.bak
+*.afx
+*.htm
+*.lnp
+*.map
+*.anish
+*.uvopt
+*.uvproj
+
