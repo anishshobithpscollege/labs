@@ -46,7 +46,7 @@ build/
 *.o
 *.dep
 *.bak
-*.afx
+*.axf
 *.htm
 *.lnp
 *.map
