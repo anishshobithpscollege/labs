@@ -3,8 +3,7 @@
 		MOV R5,#5
 		MOV R0,#5
 		
-LOOP
-		SUB R0,R0,#1
+LOOP		SUB R0,R0,#1
 		MUL R5,R0,R5
 		CMP R0,#1
 		BNE LOOP
